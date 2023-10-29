@@ -11,7 +11,6 @@ function weekendOrWorkingDay(input) {
         case 'Sunday': console.log('Weekend');break;
         default: console.log("Error");break;
 
-
     }
 
 }
