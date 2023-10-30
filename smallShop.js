@@ -6,7 +6,7 @@ function smallShop(input) {
     let sum = 0.00
 
     if (town === "Sofia") {
-        if (product ==="coffe") {
+        if (product ==="coffee") {
            sum = quantity * 0.50;
         } else if (product === "water") {
             sum = quantity * 0.80;
@@ -18,7 +18,7 @@ function smallShop(input) {
             sum = quantity * 1.60;
         }
     } else if (town === "Plovdiv") {
-        if ( product === "coffe") {
+        if ( product === "coffee") {
             sum = quantity * 0.40;
         } else if ( product === "water") {
             sum = quantity * 0.70;
@@ -30,7 +30,7 @@ function smallShop(input) {
             sum = quantity * 1.50;
         }
     } else  {
-        if (product === "coffe") {
+        if (product === "coffee") {
             sum = quantity * 0.45;
         } else if (product === "water") {
             sum = quantity * 0.70;
