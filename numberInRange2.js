@@ -3,12 +3,21 @@ function numberInRange(input) {
 
  
 
-    if (num >=-100 && num<=100 && num !=0) {
-        console.log('Yes')
-    } else  {
-        console.log('No');
-    }
+    if (num >=-100) {
+        if(num <=100) {
+            if(num !=0) {
+                console.log ('Yes');
+            } else {
+                console.log ('No');
+            }
+        } else {
+            console.log('No');
+        }
+    } else {
+        console.log ('No');
+    }   
+    
 }
         
 
-numberInRange(["-500"])
+numberInRange(["100"])
