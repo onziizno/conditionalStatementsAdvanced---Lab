@@ -45,6 +45,7 @@ console.log(sum.toFixed(2));
 }
 }
 
-fruitShop(["tomato",
-"Monday",
-"0.5"])
+fruitShop(["beer",
+"Friday",
+"3"])
+

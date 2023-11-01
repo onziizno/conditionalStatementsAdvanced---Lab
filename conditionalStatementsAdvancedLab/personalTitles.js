@@ -19,7 +19,7 @@ function personalTitles(input) {
     } else if ( gender === "m") {
         if (age>=16) {
             console.log("Mr.");
-        }else if (age<16) {
+        } else if (age<16) {
             console.log("Master")
         }
     }
