@@ -27,7 +27,7 @@ function fishingBoat(input) {
         rentalPrice = rentalPrice * 0.95;
     }
 
-    if (rentalPrice < budget) {
+    if (rentalPrice <= budget) {
         console.log(`Yes! You have ${(budget - rentalPrice).toFixed(2)} leva left.`);
     } else {
         console.log(`Not enough money! You need ${(rentalPrice - budget).toFixed(2)} leva.`);

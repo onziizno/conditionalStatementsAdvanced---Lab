@@ -20,7 +20,7 @@ function summerOutfit(input) {
         outfit = 'T-Shirt';
         shoes = 'Sandals';
     }
-    }else if(degrees >25) {
+    }else if(degrees >=25) {
     if ( timeOfDay ==='Morning') {
         outfit = 'T-Shirt';
         shoes = 'Sandals';
