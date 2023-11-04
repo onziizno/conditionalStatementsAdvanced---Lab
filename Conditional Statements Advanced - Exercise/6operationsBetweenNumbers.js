@@ -32,7 +32,7 @@ function operationsBetweenNumbers(input) {
             break;
         case '/':
             result = num1 / num2;
-            if ( num2 !==0) {
+            if (num2 !== 0) {
                 console.log(`${num1} ${operator} ${num2} = ${result.toFixed(2)}`)
             } else {
                 console.log(`Cannot divide ${num1} by zero`)
@@ -40,8 +40,8 @@ function operationsBetweenNumbers(input) {
             break;
         case '%':
             result = num1 % num2;
-            if ( num2 !==0) {
-                console.log(`${num1} ${operator} ${num2} = ${result.toFixed(2)}`)
+            if (num2 !== 0) {
+                console.log(`${num1} ${operator} ${num2} = ${result}`)
             } else {
                 console.log(`Cannot divide ${num1} by zero`)
             }
@@ -49,12 +49,9 @@ function operationsBetweenNumbers(input) {
 
     }
 
-
-
-
 }
 
 operationsBetweenNumbers(["10",
-"3",
-"%"])
+    "3",
+    "%"])
 
