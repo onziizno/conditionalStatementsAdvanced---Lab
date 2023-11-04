@@ -2,7 +2,7 @@ function fruitShop(input) {
     let fruit = input[0];
     let day = input[1];
     let quantity = Number(input[2]);
-    let sum =  0.00
+    let sum =  0
 
     if (day === "Wednesday"|| day === 'Monday' || day === 'Tuesday' || day === 'Friday' || day === 'Thursday') {
         if ( fruit === 'banana' ) {
@@ -45,7 +45,5 @@ console.log(sum.toFixed(2));
 }
 }
 
-fruitShop(["beer",
-"Friday",
-"3"])
+fruitShop(['tomato'], ['Monday'], ['0.5'])
 

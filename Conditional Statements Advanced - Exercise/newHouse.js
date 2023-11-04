@@ -34,7 +34,9 @@ function newHouse(input) {
         }else {
             bill = (num * 2.5) + (num * 2.5)*0.20; 
         }
-    } if(bill > budget) {
+    } 
+    
+    if(bill > budget) {
         console.log(`Not enough money, you need ${(bill - budget).toFixed(2)} leva more.`)
     } else  {
         console.log(`Hey, you have a great garden with ${num} ${flowers} and ${(budget-bill).toFixed(2)} leva left.`)
