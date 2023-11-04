@@ -33,13 +33,13 @@ function journey(input) {
         rentalPrice = budget * 0.90;
         place = 'Hotel';
     }
- console.log(`Somewhere in ${destination}`)
-    console.log(`${place} – ${rentalPrice.toFixed(2)}`)
+    console.log(`Somewhere in ${destination}`)
+    console.log(`${place} - ${rentalPrice.toFixed(2)}`)
 }
-   
 
 
-    
+
+
 
 
 journey(["1500", "summer"])
