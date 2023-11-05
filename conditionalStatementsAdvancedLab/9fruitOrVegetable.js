@@ -11,4 +11,4 @@ function fruitOrVegatbles (input) {
 
 }
 
-fruitOrVegatbles(["baana"])
+fruitOrVegatbles(["banana"])
