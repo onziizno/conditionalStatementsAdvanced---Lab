@@ -10,8 +10,8 @@ function numbersDivisibleBy9(input) {
     }
     console.log(`The sum: ${sum}`);
 
-    for( let i = start ; i <=stop ; i ++) {
-        if (i %9 == 0) {
+    for (let i = start; i <= stop; i++) {
+        if (i % 9 == 0) {
             console.log(i);
         }
 
