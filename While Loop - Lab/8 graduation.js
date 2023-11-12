@@ -6,13 +6,13 @@ function graduation(input) {
     let sumGrade = 0;
     let badGradeCouter = 0;
 
+
     while (i <= 12) {
         let grade = Number(input[index]);
         index++;
         if (grade < 4) {
             badGradeCouter++;
-            if ( badGradeCouter === 2) {
-                console.log(i);
+            if (badGradeCouter === 2) {
                 break;
             }
             continue;
@@ -20,20 +20,30 @@ function graduation(input) {
         sumGrade += grade;
         i++;
     }
-    let avg = sumGrade / 12;
-    console.log(`${name} graduated. Average grade: ${avg}`);
-    console.log(`${name} has been excluded at ${i} grade`);
+    if ( i < 12 ) {
+        console.log(`${name} has been excluded at ${i} grade`);
+    } else {
+        let avg = sumGrade / 12;
+        console.log(`${name} graduated. Average grade: ${avg.toFixed(2)}`);
+
+
+
+    }
 }
 
-graduation(["Mimi", 
-"5",
-"6",
-"5",
-"6",
-"5",
-"6",
-"6",
-"2",
-"3"])
+graduation(["Gosho",
+    "5",
+    "5.5",
+    "6",
+    "5.43",
+    "5.5",
+    "6",
+    "5.55",
+    "5",
+    "6",
+    "6",
+    "2",
+    "3"])
+
 
 
