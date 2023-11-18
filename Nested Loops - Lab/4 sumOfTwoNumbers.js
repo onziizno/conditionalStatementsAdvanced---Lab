@@ -12,7 +12,7 @@ function sumOfTwoNumbers(input) {
             let sum = a + b;
             combinationCounter++;
             if (sum === magickNumber) {
-                console.log(`Combination N: ${combinationCounter} (${a} + ${b} = ${magickNumber})`)
+                console.log(`Combination N:${combinationCounter} (${a} + ${b} = ${magickNumber})`)
 
                 isfound = true;
                 break;
