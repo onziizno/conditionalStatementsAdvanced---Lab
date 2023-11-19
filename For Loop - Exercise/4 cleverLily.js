@@ -18,7 +18,7 @@ function cleverLily(input) {
     }
     money += toyCounter * toyPrice;
     let diff = Math.abs(priceWashingMachine - money);
-    if ( money >= priceWashingMachine) {
+    if (money >= priceWashingMachine) {
         console.log(`Yes! ${diff.toFixed(2)}`);
     } else {
         console.log(`No! ${diff.toFixed(2)}`);
@@ -26,5 +26,5 @@ function cleverLily(input) {
 }
 
 cleverLily(["21",
-"1570.98",
-"3"])
+    "1570.98",
+    "3"])
