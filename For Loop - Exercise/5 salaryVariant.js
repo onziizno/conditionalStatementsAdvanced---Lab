@@ -6,19 +6,19 @@ function salaryVariant(input) {
     index++;
 
     let isLostSalary = false;
-    
+
     for (let i = 0; i < openTab; i++) {
         let currentTab = input[index];
         index++;
 
-        if ( currentTab === 'Facebook') {
+        if (currentTab === 'Facebook') {
             salary -= 150;
-        } else if ( currentTab === 'Instagram' ) {
+        } else if (currentTab === 'Instagram') {
             salary -= 100;
-        } else if ( currentTab === "Reddit") {
+        } else if (currentTab === "Reddit") {
             salary -= 50;
         }
-        if ( salary <= 0) {
+        if (salary <= 0) {
             console.log(`You have lost your salary.`);
             isLostSalary = true;
             break;
@@ -27,17 +27,17 @@ function salaryVariant(input) {
     if (!isLostSalary) {
         console.log(salary);
     }
-    
+
 }
 
 salaryVariant(["10",
-"750",
-"Facebook",
-"Dev.bg",
-"Instagram",
-"Facebook",
-"Reddit",
-"Facebook",
-"Facebook"])
+    "750",
+    "Facebook",
+    "Dev.bg",
+    "Instagram",
+    "Facebook",
+    "Reddit",
+    "Facebook",
+    "Facebook"])
 
 
