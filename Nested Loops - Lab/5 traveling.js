@@ -4,7 +4,6 @@ function traveling(input) {
     let command = input[index];
     index++;
 
-
     while (command !== "End") {
         let destinition = command;
         let budget = Number(input[index]);
@@ -14,14 +13,11 @@ function traveling(input) {
             let money = Number(input[index]);
             index++;
             sum += money;
-
         }
         console.log(`Going to ${destinition}!`);
         command = input[index]
         index++;
-
     }
-
 }
 
 traveling(["France",

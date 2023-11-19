@@ -7,7 +7,7 @@ function building(input) {
         for (let y = 0; y < rooms; y++) {
             if (x === floor) {
                 buffer += `L${x}${y} `;
-                
+
             } else if (x % 2 === 0) {
                 buffer += `O${x}${y} `;
             } else {
