@@ -13,9 +13,11 @@ function vacation(input) {
     let spendDays = 0;
      
      
-    while (availableMoney < neededMoney) {
+    while (availableMoney < neededMoney) {            
+        
         if(spendOrSave === "save") {
             availableMoney += sumSpendOrSave;
+            spendDays = 0;
         } else if (spendOrSave === "spend" ) {
             availableMoney -= sumSpendOrSave;
             spendDays++;
